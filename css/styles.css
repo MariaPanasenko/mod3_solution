@@ -1,11 +1,15 @@
 body {
     font-size: 16px;
     color: #fff;
-    background-color: #254f9eda;
+    background-color: LightGrey;
     font-family: 'Oxygen', sans-serif;
   }
+  .row {
+	width: 100%;
+	margin: auto;
+}
   #header-nav{
-      background-color: rgb(31, 66, 141);
+      background-color: SlateGrey;
       border-radius: 0;
       border: 0;
   }
@@ -47,18 +51,27 @@ body {
       clear: both;
       margin-top: -30px;
   }
-  #chicken {
-      background-color: rgba(26, 57, 82, 0.527);
+  .menu-item-details {
+    background-color: LightSlateGrey;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+}
+  #chicken, #beef, #sushi {
+      background-color: LightSlateGrey;
       font-size: 1.2em;
       padding-top: 5px;
   }
-  .menu-item-details {
-      background-color: rgba(26, 57, 82, 0.527);
-      width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
-      height: 100%;
+  #sushi, .sushi {
+    background-color:PowderBlue;
+  }
+  #chicken, .chicken {
+      background-color: LightSteelBlue;
   }
   #menu-title {
       margin-bottom: 30px;
+  }
+  a, a:hover {
+      color: black;
   }
