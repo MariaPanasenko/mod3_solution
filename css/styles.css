@@ -48,12 +48,12 @@ body {
       margin-top: -30px;
   }
   #chicken {
-      background-color: #000;
+      background-color: rgba(26, 57, 82, 0.527);
       font-size: 1.2em;
       padding-top: 5px;
   }
   .menu-item-details {
-      background-color: #000;
+      background-color: rgba(26, 57, 82, 0.527);
       width: 100%;
       padding-left: 10px;
       padding-right: 10px;
